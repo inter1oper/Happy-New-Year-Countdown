@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+
+<header>
+    <title>Midnight</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="timer.js"></script>
+    <script>
+        var script = document.createElement('script');
+        script.src = 'fireworks.js';
+        script.type = 'text/javascript';
+        document.getElementsByTagName('head')[0].appendChild(script);
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Vibur:400' rel='stylesheet' type='text/css'>
+</header>
+
+<body>
+    <audio autoplay loop>
+        <source src="audio/fireworks.mp3">
+    </audio>
+    <h2 id="banner">Happy New Year</h2>
+    <span id="timer">Loading...</span>
+    <canvas id="canvas">Your browser does not support the 'canvas' element.</canvas>
+</body>
+
+
+</html>
+
