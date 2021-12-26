@@ -1,5 +1,5 @@
 // === CONFIGURATION ===
-
+// (Original Fireworks Code: https://codepen.io/GabeStah/pen/BZxJmy)
 // Base firework acceleration.
 // 1.0 causes fireworks to travel at a constant speed.
 // Higher number increases rate firework accelerates over time.
