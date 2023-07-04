@@ -16,7 +16,7 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "2023";
+    document.getElementById("timer").innerHTML = "2024";
   }
 }, 1000);
 
